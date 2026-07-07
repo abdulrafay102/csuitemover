@@ -76,7 +76,7 @@ function FAQ() {
       <PageHero
         eyebrow="FAQ"
         title="Everything, answered."
-        subtitle="Still stuck? Call us at ${SITE.phone} — a human answers, and there's no obligation."
+        subtitle="Still stuck? Call us at " + SITE.phone + " — a human answers, and there's no obligation."
       />
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl space-y-14 px-4 lg:px-8">
