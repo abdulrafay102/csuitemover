@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "C-Suite Movers | Executive Moving Company in Arizona" },
+      { title: "C-Suite Movers | Premium Moving Company in Phoenix, AZ" },
       {
         name: "description",
         content:
@@ -88,10 +88,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "C-Suite Movers" },
       { property: "og:site_name", content: "C-Suite Movers" },
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "C-Suite Movers | Executive Moving Company in Arizona" },
-      { property: "og:description", content: "Premium residential, commercial, long-distance and specialty moving across the Phoenix Valley." },
+      { property: "og:title", content: "C-Suite Movers | Premium Moving Company in Phoenix, AZ" },
+      { property: "og:description", content: "Executive-level residential, commercial, packing, long-distance and specialty moving across Phoenix, Scottsdale, Tempe & the Valley. Licensed, insured, on-time." },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#123A73" },
+      { name: "twitter:title", content: "C-Suite Movers | Premium Moving Company in Phoenix, AZ" },
+      { name: "description", content: "Executive-level residential, commercial, packing, long-distance and specialty moving across Phoenix, Scottsdale, Tempe & the Valley. Licensed, insured, on-time." },
+      { name: "twitter:description", content: "Executive-level residential, commercial, packing, long-distance and specialty moving across Phoenix, Scottsdale, Tempe & the Valley. Licensed, insured, on-time." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39e362e0-7a8f-452b-8a88-78b9ea8ccadb/id-preview-d57dd513--7795d29c-d0bc-4fbf-9177-6490ff21545a.lovable.app-1783430003288.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39e362e0-7a8f-452b-8a88-78b9ea8ccadb/id-preview-d57dd513--7795d29c-d0bc-4fbf-9177-6490ff21545a.lovable.app-1783430003288.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
