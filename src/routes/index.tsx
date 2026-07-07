@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
     ],
     links: [{ rel: "canonical", href: "/" }],
   }),
-  component: Home,
+  component: HomePage,
 });
 
 const ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -61,7 +61,7 @@ const FAQS = [
   { q: "Do you offer storage?", a: "We partner with climate-controlled, 24/7-monitored storage facilities in the Phoenix area for short-term staging and long-term storage between moves." },
 ];
 
-function Home() {
+function HomePage() {
   return (
     <>
       {/* HERO */}
