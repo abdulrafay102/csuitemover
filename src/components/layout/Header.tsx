@@ -31,7 +31,7 @@ export function Header() {
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-1 rounded-full border border-royal/40 bg-royal/25 px-2 py-1.5 shadow-royal backdrop-blur-md lg:flex">
           {NAV.map((item) =>
             "children" in item && item.children ? (
               <div
@@ -40,7 +40,7 @@ export function Header() {
                 onMouseEnter={() => setServicesOpen(true)}
                 onMouseLeave={() => setServicesOpen(false)}
               >
-                <button className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-white/85 transition hover:text-white">
+                <button className="flex items-center gap-1 rounded-full px-3 py-1.5 text-sm font-medium text-white/90 transition hover:bg-white/10 hover:text-white">
                   {item.label} <ChevronDown className="h-3.5 w-3.5" />
                 </button>
                 {servicesOpen && (
@@ -63,8 +63,8 @@ export function Header() {
               <Link
                 key={item.to}
                 to={item.to as string}
-                className="rounded-md px-3 py-2 text-sm font-medium text-white/85 transition hover:text-white"
-                activeProps={{ className: "rounded-md px-3 py-2 text-sm font-medium text-white" }}
+                className="rounded-full px-3 py-1.5 text-sm font-medium text-white/90 transition hover:bg-white/10 hover:text-white"
+                activeProps={{ className: "rounded-full px-3 py-1.5 text-sm font-semibold text-navy-deep bg-white shadow-sm" }}
                 activeOptions={{ exact: item.to === "/" }}
               >
                 {item.label}
