@@ -41,14 +41,14 @@ export const SERVICES = [
     slug: "residential-moving",
     title: "Residential Moving",
     tagline: "Homes, apartments & estates handled with care.",
-    blurb: "From single-bedroom apartments to luxury estates, our residential crews treat every home like it's their own — protected floors, blanket-wrapped furniture, and a foreman on every job.",
+    blurb: "From single-bedroom apartments to luxury estates, our residential crews treat every home like it's their own protected floors, blanket-wrapped furniture, and a foreman on every job.",
     icon: "Home",
   },
   {
     slug: "commercial-moving",
     title: "Commercial & Office",
     tagline: "Zero-downtime office relocations.",
-    blurb: "We move corporate offices, medical suites, and retail after-hours so your team walks in Monday morning ready to work — desks staged, IT reconnected, and floors cleared.",
+    blurb: "We move corporate offices, medical suites, and retail after-hours so your team walks in Monday morning ready to work desks staged, IT reconnected, and floors cleared.",
     icon: "Building2",
   },
   {
