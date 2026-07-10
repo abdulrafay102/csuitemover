@@ -140,7 +140,7 @@ function HomePage() {
           <SectionHeader
             eyebrow="Why C-Suite"
             title="A moving company built for people who won't accept mediocre."
-            subtitle="We're not the cheapest truck in the parking lot — we're the company you call when the piano is a Steinway, the office relaunches Monday, or the estate has been in your family for generations."
+            subtitle="We're not the cheapest truck in the parking lot we're the company you call when the piano is a Steinway, the office relaunches Monday, or the estate has been in your family for generations."
           />
           <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {FEATURES.map((f) => (
@@ -209,7 +209,7 @@ function HomePage() {
             dark
             eyebrow="How It Works"
             title="Four steps from first call to keys-in-hand."
-            subtitle="A simple, transparent process — because moving day should be the least stressful part of your relocation."
+            subtitle="A simple, transparent process because moving day should be the least stressful part of your relocation."
           />
           <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {STEPS.map((s, i) => (
@@ -249,7 +249,7 @@ function HomePage() {
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
               Before a single item leaves the room, we lay down floor runners, wrap banisters, pad doorways, and shrink-wrap
               every piece of upholstered furniture. Dining tables get blanket-wrapped and corner-guarded. TVs travel in padded
-              cases. Artwork ships in custom crates. That's not an upsell — that's how every C-Suite move begins.
+              cases. Artwork ships in custom crates. That's not an upsell that's how every C-Suite move begins.
             </p>
             <ul className="mt-6 space-y-3">
               {[
@@ -303,7 +303,7 @@ function HomePage() {
           <div>
             <h2 className="font-display text-3xl font-bold md:text-4xl">Ready when you are.</h2>
             <p className="mt-2 max-w-xl text-white/85">
-              Get a written quote in under an hour. No pressure, no hidden fees, no gimmicks — just a straight answer from Arizona's executive movers.
+              Get a written quote in under an hour. No pressure, no hidden fees, no gimmicks just a straight answer from Arizona's executive movers.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
