@@ -2,7 +2,6 @@ export const SITE = {
   name: "C-Suite Movers",
   phone: "+1 (623) 242-3952",
   phoneHref: "tel:+16232423952",
-  email: "hello@csuitemovers.com",
   address: "Phoenix Metro, Arizona",
   hours: "Mon–Sat: 7:00 AM – 8:00 PM · Sun: By appointment",
   socials: {

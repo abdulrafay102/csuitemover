@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Clock, Instagram, Facebook, Shield } from "lucide-react";
+import { Phone, MapPin, Clock, Instagram, Facebook, Shield } from "lucide-react";
 import logo from "@/assets/logo.asset.json";
 import { SITE, SERVICES } from "@/lib/site";
 
@@ -62,7 +62,7 @@ export function Footer() {
             <h4 className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-royal-glow">Contact</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3"><Phone className="mt-0.5 h-4 w-4 text-royal-glow" /><a href={SITE.phoneHref} className="hover:text-white">{SITE.phone}</a></li>
-              <li className="flex items-start gap-3"><Mail className="mt-0.5 h-4 w-4 text-royal-glow" /><a href={`mailto:${SITE.email}`} className="hover:text-white">{SITE.email}</a></li>
+              
               <li className="flex items-start gap-3"><MapPin className="mt-0.5 h-4 w-4 text-royal-glow" />{SITE.address}</li>
               <li className="flex items-start gap-3"><Clock className="mt-0.5 h-4 w-4 text-royal-glow" />{SITE.hours}</li>
             </ul>

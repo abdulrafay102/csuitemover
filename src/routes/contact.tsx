@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/PageHero";
 import { QuoteForm } from "@/components/QuoteForm";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin, Clock } from "lucide-react";
 import { SITE } from "@/lib/site";
 import truck from "@/assets/truck-loading.asset.json";
 
@@ -32,7 +32,7 @@ function Contact() {
         <div className="mx-auto grid max-w-6xl gap-10 px-4 lg:grid-cols-[1fr_1.3fr] lg:px-8">
           <div className="space-y-4">
             <InfoCard icon={Phone} label="Call or Text" value={SITE.phone} href={SITE.phoneHref} />
-            <InfoCard icon={Mail} label="Email" value={SITE.email} href={`mailto:${SITE.email}`} />
+            
             <InfoCard icon={MapPin} label="Service Area" value="Phoenix Metro & the entire Valley" />
             <InfoCard icon={Clock} label="Hours" value={SITE.hours} />
 
