@@ -116,7 +116,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "MovingCompany",
           name: SITE.name,
           telephone: SITE.phone,
-          email: SITE.email,
+          
           areaServed: "Phoenix Metropolitan Area, Arizona",
           address: { "@type": "PostalAddress", addressRegion: "AZ", addressCountry: "US", addressLocality: "Phoenix" },
           priceRange: "$$",
