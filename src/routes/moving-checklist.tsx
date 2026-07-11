@@ -10,7 +10,7 @@ const CHECKLIST: { title: string; items: string[] }[] = [
       "Set your moving budget",
       "Request in-home or video estimates from movers",
       "Research schools, doctors, and utilities at your destination",
-      "Start decluttering — donate, sell, or trash unwanted items",
+      "Start decluttering - donate, sell, or trash unwanted items",
     ],
   },
   {
@@ -57,7 +57,7 @@ const CHECKLIST: { title: string; items: string[] }[] = [
     items: [
       "Walk through the home with the foreman before loading begins",
       "Sign the inventory sheet after everything is loaded",
-      "Do a final walk-through — check closets, cabinets, garage, attic",
+      "Do a final walk-through - check closets, cabinets, garage, attic",
       "Hand off keys to landlord or new owners",
       "Keep valuables, documents, and medications with you",
     ],
@@ -93,7 +93,7 @@ function Checklist() {
       <PageHero
         eyebrow="Moving Checklist"
         title="Your 8-week countdown to a stress-free move."
-        subtitle="A week-by-week plan built from thousands of moves. Print it, save it, or send it to your family — and let us handle the heavy part."
+        subtitle="A week-by-week plan built from thousands of moves. Print it, save it, or send it to your family - and let us handle the heavy part."
       />
       <section className="bg-cream py-20">
         <div className="mx-auto max-w-4xl space-y-8 px-4 lg:px-8">

@@ -27,25 +27,25 @@ const CONTENT: Record<string, Content> = {
       image: livingRoom.url,
     },
     intro:
-      "Moving your home is one of the most disruptive things a family goes through — and the wrong crew can turn it into a nightmare. C-Suite Movers built our residential division to be the opposite: a calm, methodical, protective process that leaves you unpacked and settled in less time than you thought possible. Every residential move begins with a walk-through, a written binding estimate, and a foreman assigned to your job from load day to unload day.",
+      "Moving your home is one of the most disruptive things a family goes through - and the wrong crew can turn it into a nightmare. C-Suite Movers built our residential division to be the opposite: a calm, methodical, protective process that leaves you unpacked and settled in less time than you thought possible. Every residential move begins with a walk-through, a written binding estimate, and a foreman assigned to your job from load day to unload day.",
     benefits: [
       "Full-home walk-through and written binding estimate",
       "Floor runners, doorway padding, and banister protection installed before we touch a single box",
       "Every piece of upholstered furniture shrink-wrapped; wood furniture blanket-wrapped and corner-guarded",
       "Beds disassembled and reassembled, TVs mounted or dismounted, appliances safely disconnected",
-      "Uniformed, background-checked, W-2 crews — never day labor",
+      "Uniformed, background-checked, W-2 crews - never day labor",
       "Full replacement-value cargo insurance on every move",
     ],
     process: [
       { title: "Free in-home or video walk-through", text: "We inventory your home and confirm access, parking, elevators, and specialty items." },
-      { title: "Binding written estimate", text: "You get a flat rate — no fuel surcharges, no fine-print add-ons." },
+      { title: "Binding written estimate", text: "You get a flat rate - no fuel surcharges, no fine-print add-ons." },
       { title: "Load day", text: "A foreman and uniformed crew arrive on time, protect the home, and load with care." },
       { title: "Unload & setup", text: "We place furniture per your plan, reassemble beds, and don't leave until you're happy." },
     ],
     faqs: [
       { q: "Do you move small apartments and studios?", a: "Absolutely. We move studios, one-bedrooms, and everything up to 10,000+ sq ft estates with equal care." },
       { q: "How far in advance should I book?", a: "For weekday moves, 1–2 weeks. For last-week-of-the-month or weekend moves, 3–4 weeks is ideal." },
-      { q: "Do you disassemble and reassemble furniture?", a: "Yes — beds, dining tables, sectionals, cribs, exercise equipment. It's included on most residential moves." },
+      { q: "Do you disassemble and reassemble furniture?", a: "Yes - beds, dining tables, sectionals, cribs, exercise equipment. It's included on most residential moves." },
       { q: "What about my TV, artwork, and mirrors?", a: "TVs travel in padded cases; artwork and mirrors in custom cartons or crates depending on size and value." },
     ],
   },
@@ -57,7 +57,7 @@ const CONTENT: Record<string, Content> = {
       image: tv.url,
     },
     intro:
-      "A commercial move isn't just furniture — it's payroll, productivity, and reputation on the line. C-Suite Movers plans commercial relocations backwards from the moment your team walks back through the door. We coordinate with your IT, facilities, and building management, tag and inventory every workstation, move after hours or over weekends, and reassemble everything so Monday morning feels ordinary — not disruptive.",
+      "A commercial move isn't just furniture - it's payroll, productivity, and reputation on the line. C-Suite Movers plans commercial relocations backwards from the moment your team walks back through the door. We coordinate with your IT, facilities, and building management, tag and inventory every workstation, move after hours or over weekends, and reassemble everything so Monday morning feels ordinary - not disruptive.",
     benefits: [
       "After-hours and weekend moves to minimize downtime",
       "Workstation tagging, digital inventory, and reassembly per your floor plan",
@@ -73,9 +73,9 @@ const CONTENT: Record<string, Content> = {
       { title: "Reassembly & punch list", text: "Desks placed, monitors mounted, files racked, and we walk the space with you." },
     ],
     faqs: [
-      { q: "Can you move over a weekend to avoid downtime?", a: "Yes — that's how we prefer to do it. Most commercial moves happen Friday night through Sunday." },
+      { q: "Can you move over a weekend to avoid downtime?", a: "Yes - that's how we prefer to do it. Most commercial moves happen Friday night through Sunday." },
       { q: "Do you provide certificates of insurance?", a: "Yes, we issue COIs to building management with your specific insured parties and limits." },
-      { q: "Do you handle office furniture disassembly?", a: "Yes — cubicles, modular workstations, conference tables, and standing desks." },
+      { q: "Do you handle office furniture disassembly?", a: "Yes - cubicles, modular workstations, conference tables, and standing desks." },
       { q: "Can you coordinate with our IT team?", a: "Absolutely. We work with your IT provider on cabling shutdown, server handling, and reconnection scheduling." },
     ],
   },
@@ -83,7 +83,7 @@ const CONTENT: Record<string, Content> = {
     hero: {
       eyebrow: "Packing Services",
       title: "Museum-grade packing, full or partial.",
-      subtitle: "The way we'd want our own family's belongings packed — because that's exactly the standard we're held to.",
+      subtitle: "The way we'd want our own family's belongings packed - because that's exactly the standard we're held to.",
       image: crates.url,
     },
     intro:
@@ -94,19 +94,19 @@ const CONTENT: Record<string, Content> = {
       "Custom-built wooden crates for artwork, sculpture, and mirrors",
       "Wardrobe boxes for hanging clothes; dish-pack cartons for kitchens",
       "Every box labeled with room, contents, and handling instructions",
-      "Unpacking service available — we place items in cabinets and closets",
+      "Unpacking service available - we place items in cabinets and closets",
     ],
     process: [
       { title: "Packing consultation", text: "We tour your home and recommend full, partial, or fragile-only packing based on your inventory." },
       { title: "Materials delivery", text: "Cartons, paper, tape, and wardrobe boxes delivered the day before packing begins." },
       { title: "Pack day", text: "Uniformed packers work room by room with a foreman quality-checking every box." },
-      { title: "Move day", text: "Everything is boxed, labeled, and inventoried — ready for a smooth load." },
+      { title: "Move day", text: "Everything is boxed, labeled, and inventoried - ready for a smooth load." },
     ],
     faqs: [
       { q: "How long does it take to pack a home?", a: "A 3-bedroom home typically packs in 1 day with a 3-person crew. Larger homes take 2–3 days." },
-      { q: "Can I pack some things myself?", a: "Yes. Partial packing is common — we'll handle kitchens, glassware, and artwork while you pack personal items." },
+      { q: "Can I pack some things myself?", a: "Yes. Partial packing is common - we'll handle kitchens, glassware, and artwork while you pack personal items." },
       { q: "Do you unpack too?", a: "We do. We'll unpack boxes into cabinets and closets and haul away all packing materials." },
-      { q: "Are my items insured while you pack?", a: "Yes — items we pack are covered under our full replacement-value protection." },
+      { q: "Are my items insured while you pack?", a: "Yes - items we pack are covered under our full replacement-value protection." },
     ],
   },
   "local-moving": {
@@ -117,10 +117,10 @@ const CONTENT: Record<string, Content> = {
       image: homeExt.url,
     },
     intro:
-      "Most Phoenix-area local moves happen faster than clients expect — and cost less than they fear. C-Suite Movers offers transparent hourly and flat-rate pricing for local moves across Maricopa County, with same-day and next-day availability most weeks. Whether you're crossing town or crossing the street, you get the same uniformed crew, the same protective packing, and the same foreman-led execution as our largest jobs.",
+      "Most Phoenix-area local moves happen faster than clients expect - and cost less than they fear. C-Suite Movers offers transparent hourly and flat-rate pricing for local moves across Maricopa County, with same-day and next-day availability most weeks. Whether you're crossing town or crossing the street, you get the same uniformed crew, the same protective packing, and the same foreman-led execution as our largest jobs.",
     benefits: [
       "Same-day and next-day availability across Maricopa County",
-      "Transparent hourly or flat-rate pricing — you choose",
+      "Transparent hourly or flat-rate pricing - you choose",
       "No fuel surcharges, no travel fees within the Valley",
       "Fully equipped trucks: pads, dollies, straps, floor runners, wardrobe boxes",
       "Free stretch wrap and mattress bags on every local move",
@@ -135,8 +135,8 @@ const CONTENT: Record<string, Content> = {
     faqs: [
       { q: "What counts as a local move?", a: "Any move within Maricopa County or under 50 miles from your origin address." },
       { q: "Is there a minimum?", a: "Most local moves have a 2-hour minimum plus travel time." },
-      { q: "Can you move same-day?", a: "Often yes — call before noon and we can usually get a crew to you the same day." },
-      { q: "Do you take cards?", a: "Yes — all major cards, ACH, cash, and check accepted." },
+      { q: "Can you move same-day?", a: "Often yes - call before noon and we can usually get a crew to you the same day." },
+      { q: "Do you take cards?", a: "Yes - all major cards, ACH, cash, and check accepted." },
     ],
   },
   "long-distance": {
@@ -147,13 +147,13 @@ const CONTENT: Record<string, Content> = {
       image: truck.url,
     },
     intro:
-      "A long-distance move should not feel like handing your life to strangers. C-Suite Movers offers dedicated, non-shared long-distance moves with binding written estimates, GPS-tracked trucks, guaranteed delivery windows, and a single move coordinator from load day to unload day. Your belongings travel on our truck, with our crew, and are delivered by the same team that loaded them — never transferred, never split with other households.",
+      "A long-distance move should not feel like handing your life to strangers. C-Suite Movers offers dedicated, non-shared long-distance moves with binding written estimates, GPS-tracked trucks, guaranteed delivery windows, and a single move coordinator from load day to unload day. Your belongings travel on our truck, with our crew, and are delivered by the same team that loaded them - never transferred, never split with other households.",
     benefits: [
-      "Dedicated truck — never shared with other households",
+      "Dedicated truck - never shared with other households",
       "Binding written estimate; the number we quote is the number you pay",
       "GPS-tracked trucks with live delivery ETA",
       "Guaranteed delivery windows (not 'sometime in the next 21 days')",
-      "Same crew loads and unloads — no cross-country transfers",
+      "Same crew loads and unloads - no cross-country transfers",
       "Full replacement-value cargo protection included",
     ],
     process: [
@@ -165,8 +165,8 @@ const CONTENT: Record<string, Content> = {
     faqs: [
       { q: "Where do you move to?", a: "Anywhere in the continental United States. Most common corridors: AZ to CA, TX, CO, WA, FL, and the East Coast." },
       { q: "How long will delivery take?", a: "Typically 3–10 days depending on distance. You'll have a guaranteed delivery window in writing." },
-      { q: "Is my stuff on a shared truck?", a: "No. Every long-distance move is dedicated — your belongings, our truck, one destination." },
-      { q: "Is it insured across state lines?", a: "Yes — full replacement-value cargo protection is included on every long-distance move." },
+      { q: "Is my stuff on a shared truck?", a: "No. Every long-distance move is dedicated - your belongings, our truck, one destination." },
+      { q: "Is it insured across state lines?", a: "Yes - full replacement-value cargo protection is included on every long-distance move." },
     ],
   },
   "specialty-moving": {
@@ -189,14 +189,14 @@ const CONTENT: Record<string, Content> = {
     process: [
       { title: "Specialty consult", text: "Send us photos and dimensions; we'll assess rigging, doorway access, and transport needs." },
       { title: "Custom quote", text: "Flat-rate quote with any custom crating or rigging fees itemized upfront." },
-      { title: "Specialist crew dispatched", text: "Trained specialists arrive with the right equipment — not just extra hands." },
+      { title: "Specialist crew dispatched", text: "Trained specialists arrive with the right equipment - not just extra hands." },
       { title: "Placement & setup", text: "We place and level the item, and coordinate with tuners or techs if needed." },
     ],
     faqs: [
-      { q: "Do you move grand pianos?", a: "Yes — grand and baby grand pianos on custom piano skids with a 4-person specialty crew." },
+      { q: "Do you move grand pianos?", a: "Yes - grand and baby grand pianos on custom piano skids with a 4-person specialty crew." },
       { q: "How heavy of a safe can you move?", a: "We regularly move safes up to 1,500 lbs, including up and down flights of stairs with proper equipment." },
-      { q: "Can you crate artwork?", a: "Yes — custom wooden crates for paintings, sculpture, and mirrors are built to your item's dimensions." },
-      { q: "Is climate-controlled transport available?", a: "Yes — for wine collections, fine art, and heat-sensitive antiques." },
+      { q: "Can you crate artwork?", a: "Yes - custom wooden crates for paintings, sculpture, and mirrors are built to your item's dimensions." },
+      { q: "Is climate-controlled transport available?", a: "Yes - for wine collections, fine art, and heat-sensitive antiques." },
     ],
   },
 };

@@ -23,7 +23,7 @@ export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Gallery | C-Suite Movers Phoenix" },
-      { name: "description", content: "See C-Suite Movers on the job — real Phoenix-area residential, commercial, and specialty moves." },
+      { name: "description", content: "See C-Suite Movers on the job - real Phoenix-area residential, commercial, and specialty moves." },
       { property: "og:title", content: "Gallery | C-Suite Movers" },
       { property: "og:description", content: "Real photos of real Phoenix-area moves." },
     ],
