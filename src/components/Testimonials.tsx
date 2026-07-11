@@ -5,12 +5,12 @@ const REVIEWS = [
   {
     name: "Franciana Tertulien",
     location: "Phoenix · Repeat client, 2 moves",
-    text: "I've moved twice with C-Suite Movers. In less than 6 months these guys performed with less manpower and accomplished the same or better results with no damage to my belongings. If anyone on the team sees me pick something up, they ALWAYS stop and ask to take it off my hands. Through the military and contractors I've done many moves — this fine group of men is by far the most elite team I have ever hired. My absolute go-to.",
+    text: "I've moved twice with C-Suite Movers. In less than 6 months these guys performed with less manpower and accomplished the same or better results with no damage to my belongings. If anyone on the team sees me pick something up, they ALWAYS stop and ask to take it off my hands. Through the military and contractors I've done many moves - this fine group of men is by far the most elite team I have ever hired. My absolute go-to.",
   },
   {
     name: "Andrew Liam",
     location: "Goodyear → San Tan Valley",
-    text: "After comparing quotes from over 10 moving companies, C-Suite Movers offered the best price without sacrificing quality. Sam's communication was outstanding — he always answered my calls and provided timely updates. The crew was efficient, professional, and incredibly friendly. If you need movers who truly care about their customers, C-Suite Movers is the way to go!",
+    text: "After comparing quotes from over 10 moving companies, C-Suite Movers offered the best price without sacrificing quality. Sam's communication was outstanding - he always answered my calls and provided timely updates. The crew was efficient, professional, and incredibly friendly. If you need movers who truly care about their customers, C-Suite Movers is the way to go!",
   },
   {
     name: "Christina Safford",
@@ -20,7 +20,7 @@ const REVIEWS = [
   {
     name: "Jessica Robinson",
     location: "Arizona → Colorado · Senior relocation",
-    text: "C-Suite was instrumental in relocating my grandmother from Arizona to Colorado on very short notice. Despite only one week's notice, they moved everything seamlessly in just 24 hours, including setting up furniture and installing wall-mounted televisions. Attention to detail with her antiques was incredible — nothing was broken, everything treated with the utmost care.",
+    text: "C-Suite was instrumental in relocating my grandmother from Arizona to Colorado on very short notice. Despite only one week's notice, they moved everything seamlessly in just 24 hours, including setting up furniture and installing wall-mounted televisions. Attention to detail with her antiques was incredible - nothing was broken, everything treated with the utmost care.",
   },
   {
     name: "DeMari Davis",
@@ -30,12 +30,12 @@ const REVIEWS = [
   {
     name: "Cutrina Oliver",
     location: "Phoenix · Local move",
-    text: "From the moment they arrived to every detail throughout the process — they handled my belongings with great care, ensuring everything was safely moved and thoughtfully placed in my new space. No rushing, no shortcuts, just genuine service done right. Sam and Marquis made what could have been a stressful day feel smooth and stress-free. HIGHLY RECOMMENDED!",
+    text: "From the moment they arrived to every detail throughout the process - they handled my belongings with great care, ensuring everything was safely moved and thoughtfully placed in my new space. No rushing, no shortcuts, just genuine service done right. Sam and Marquis made what could have been a stressful day feel smooth and stress-free. HIGHLY RECOMMENDED!",
   },
   {
     name: "Erikka Brooks",
     location: "Phoenix · 3rd floor → 3rd floor, no elevator",
-    text: "Absolutely thrilled with the exceptional customer service. From the first quote their team was genuine, personable, and attentive. On moving day the crew was punctual and incredibly caring with my items — moving from a third floor to another third floor with no elevator. They made it happen. If you're looking for a company that treats your belongings with the utmost care, this is it.",
+    text: "Absolutely thrilled with the exceptional customer service. From the first quote their team was genuine, personable, and attentive. On moving day the crew was punctual and incredibly caring with my items - moving from a third floor to another third floor with no elevator. They made it happen. If you're looking for a company that treats your belongings with the utmost care, this is it.",
   },
   {
     name: "Cara Donahue",
@@ -50,7 +50,7 @@ const REVIEWS = [
   {
     name: "Tiffany Leathers",
     location: "Phoenix · Downsizing move",
-    text: "I've moved a lot and C-Suite Movers has been the best. Two incredible men showed up ready to help — despite the Arizona heat — and handled everything with care, efficiency, and professionalism. Downsizing can be a stressful process, but they made it feel easy. Highly recommend to anyone looking for reliable, hard-working movers who genuinely care.",
+    text: "I've moved a lot and C-Suite Movers has been the best. Two incredible men showed up ready to help - despite the Arizona heat - and handled everything with care, efficiency, and professionalism. Downsizing can be a stressful process, but they made it feel easy. Highly recommend to anyone looking for reliable, hard-working movers who genuinely care.",
   },
   {
     name: "Bri Bucks",
@@ -60,7 +60,7 @@ const REVIEWS = [
   {
     name: "GERMAINE",
     location: "Phoenix · Real estate partner",
-    text: "C-Suite Movers is our go-to moving company when we hire them for our clients or refer movers to them. As a real estate professional, having good partners to help our clients is essential — we will use C-Suite Movers again and again because they are professional, efficient, and great with communication.",
+    text: "C-Suite Movers is our go-to moving company when we hire them for our clients or refer movers to them. As a real estate professional, having good partners to help our clients is essential - we will use C-Suite Movers again and again because they are professional, efficient, and great with communication.",
   },
 ];
 

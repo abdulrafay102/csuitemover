@@ -24,7 +24,7 @@ function Contact() {
       <PageHero
         eyebrow="Contact Us"
         title="Let's talk about your move."
-        subtitle="Call, text, or fill out the form — a real human answers, and you'll have a written quote in under an hour."
+        subtitle="Call, text, or fill out the form - a real human answers, and you'll have a written quote in under an hour."
         image={truck.url}
       />
 

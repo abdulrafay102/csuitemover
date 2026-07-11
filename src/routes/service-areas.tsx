@@ -22,7 +22,7 @@ export const Route = createFileRoute("/service-areas")({
   head: () => ({
     meta: [
       { title: "Service Areas | C-Suite Movers Phoenix Valley" },
-      { name: "description", content: "C-Suite Movers serves the entire Phoenix Valley — Phoenix, Scottsdale, Tempe, Chandler, Mesa, Gilbert, Glendale, Peoria, and more." },
+      { name: "description", content: "C-Suite Movers serves the entire Phoenix Valley - Phoenix, Scottsdale, Tempe, Chandler, Mesa, Gilbert, Glendale, Peoria, and more." },
       { property: "og:title", content: "Service Areas | C-Suite Movers" },
       { property: "og:description", content: "Serving the entire Phoenix Valley with executive moving service." },
     ],

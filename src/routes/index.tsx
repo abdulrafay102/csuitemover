@@ -56,7 +56,7 @@ const FAQS = [
   { q: "How quickly can you schedule my move?", a: "For local Phoenix-area moves we can usually schedule within 48–72 hours. Same-day and next-day availability is common outside of the last week of the month." },
   { q: "Are you licensed and insured?", a: "Yes. C-Suite Movers is fully licensed, USDOT-compliant for interstate moves, and carries full cargo and liability insurance on every job." },
   { q: "Do you provide packing materials?", a: "We do. Museum-grade paper, double-walled cartons, wardrobe boxes, custom crates for artwork and glass, mattress bags, and floor protection are all available." },
-  { q: "How is pricing calculated?", a: "Local moves are typically hourly with a flat truck fee. Long-distance and specialty moves are quoted as binding flat rates based on inventory and distance — never based on gas prices or hidden surcharges." },
+  { q: "How is pricing calculated?", a: "Local moves are typically hourly with a flat truck fee. Long-distance and specialty moves are quoted as binding flat rates based on inventory and distance - never based on gas prices or hidden surcharges." },
   { q: "Can you move pianos, safes, or artwork?", a: "Yes. Our specialty crew handles grand and upright pianos, gun safes up to 1,500 lbs, sculpture, wine collections, and fine art with custom rigging and climate-controlled transport." },
   { q: "Do you offer storage?", a: "We partner with climate-controlled, 24/7-monitored storage facilities in the Phoenix area for short-term staging and long-term storage between moves." },
 ];
@@ -236,7 +236,7 @@ function HomePage() {
                 {Array.from({ length: 5 }).map((_, k) => <Star key={k} className="h-4 w-4 fill-ember text-ember" />)}
               </div>
               <p className="mt-2 text-sm font-medium text-navy-deep">"Every piece of furniture wrapped, every doorway padded. Best movers we've ever hired."</p>
-              <p className="mt-1 text-xs text-muted-foreground">— Verified Google Review</p>
+              <p className="mt-1 text-xs text-muted-foreground">- Verified Google Review</p>
             </div>
           </div>
           <div>

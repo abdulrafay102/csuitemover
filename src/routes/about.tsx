@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About C-Suite Movers | Arizona's Executive Moving Company" },
-      { name: "description", content: "Meet C-Suite Movers — a family-run, executive-caliber moving company built on white-glove service, transparent pricing, and Phoenix roots." },
+      { name: "description", content: "Meet C-Suite Movers - a family-run, executive-caliber moving company built on white-glove service, transparent pricing, and Phoenix roots." },
       { property: "og:title", content: "About C-Suite Movers" },
       { property: "og:description", content: "Executive-caliber moving built on white-glove service and transparent pricing." },
     ],
@@ -44,13 +44,13 @@ function About() {
               Started by a foreman. Built by families who choose us twice.
             </h2>
             <p className="mt-5 leading-relaxed text-muted-foreground">
-              We started C-Suite Movers after too many years watching great moves get ruined by bad crews — rushed loading,
+              We started C-Suite Movers after too many years watching great moves get ruined by bad crews - rushed loading,
               chipped corners, mystery charges at delivery. So we built the company we wanted to hire: uniformed W-2 crews,
               a foreman on every job, museum-grade packing materials on the truck by default, and binding written estimates.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              Today we serve families and businesses across the Phoenix Valley — from Scottsdale estates to Tempe apartments
-              to Chandler office relocations — plus long-distance moves anywhere in the continental U.S. Our repeat-customer
+              Today we serve families and businesses across the Phoenix Valley - from Scottsdale estates to Tempe apartments
+              to Chandler office relocations - plus long-distance moves anywhere in the continental U.S. Our repeat-customer
               rate is our proudest number.
             </p>
             <div className="mt-6 grid grid-cols-3 gap-4">
