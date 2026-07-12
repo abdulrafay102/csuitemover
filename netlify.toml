@@ -1,0 +1,12 @@
+# Netlify build configuration for this TanStack Start app.
+# Netlify will run `npm run build`; Nitro (bundled via the Lovable
+# TanStack config) auto-detects Netlify and emits SSR functions +
+# static assets. No manual redirects needed — the preset wires them.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NODE_VERSION = "20"
