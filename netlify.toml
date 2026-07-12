@@ -1,0 +1,20 @@
+ID: netlify build config for TanStack Start (via Nitro)
+# This lets the site build & deploy on Netlify out of the box.
+# Nitro detects Netlify automatically when NETLIFY=true (set by Netlify),
+# but we pin the preset explicitly for clarity.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NODE_VERSION = "20"
+
+# SPA/SSR fallback — Nitro's Netlify preset installs its own function
+# routing during build. This redirect is a safety net for static assets
+# so client-side routes always resolve.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
